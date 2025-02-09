@@ -1,0 +1,15 @@
+telegram:
+  bot:
+    username: "your_bot_username"
+    token: "your_bot_token"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bot_db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
